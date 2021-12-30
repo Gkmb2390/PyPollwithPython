@@ -18,18 +18,18 @@
     #Get total votes cast for the election
 
 #Assign variable for loading the file
-csv_elec_results = 'resources/election_results.csv'
-
+csv_elec_results = 'resources\election_results.csv'
 #open the election results and read the file
 #CODE:election_data = open(csv_elec_results, 'r')
         
         #Alternative open/close process
 with open(csv_elec_results) as election_data:
-
-
-#add analysis code at later date
+    #add analysis code at later date
 
 #close the file
 #election_data.close()
         #Alternative close process
     print(election_data)
+
+
+csv_elec_results = os.path.join("resources","election_results.csv")
